@@ -184,8 +184,8 @@ span {
 .text-animation {
     
     font-size: 1.4rem;
-    font-weight: 600;
-    min-width: 280px;
+    font-weight: 900;
+    min-width: 400px;
     position: relative;
     overflow: hidden;
 }
@@ -195,7 +195,7 @@ span {
     top: 0;
     left: 0;
     white-space: nowrap;
-    animation: typing 20s steps(30, end) infinite, cursor 0.6s step-end infinite;
+    animation: typing 25s steps(30, end) infinite, cursor 0.6s step-end infinite;
 }
 
 @keyframes cursor {
@@ -225,7 +225,7 @@ span {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2s steps(30, end) infinite;
+    animation: typing 1.5s steps(30, end) infinite;
 }
 .skills{
     background: var(--bg-color);
