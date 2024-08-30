@@ -5,69 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PORTFOLIO</title>
     <link rel="stylesheet" href="figma.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <nav class="tabs">
-        <div class="menu">
-            <p class="About">About</p>
-            <p class="Personal Skills">Personal Skills</p>
-            <p class="Education">Education</p>
-        </div>
-    </nav>
-    <h1>HELLO</h1>
-    <h2>im, SERG MICHAEL</h2>
-    <nav id="nav1">
-        <div class="profile">
-            <img class="pogi" src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478387/pogi2_ojnnjf.png" alt="serg">
-            <h3 class="about">About me</h3>
-            <p class="hi">Hi, I'm a junior developer and digital artist. I specialize in web design, graphic design, and system availability.</p>
-        </div>
-    </nav>
-    <hr>
-    <div id="socials-container">
-        <img
-        src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478323/facebook-logo-24_jv7cbt.png" alt="fb"
-        class="icon" onclick="location.href='https://www.facebook.com/sergmichael.aparri'"
-        />
-        <img
-        src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478463/github-logo-24_s4jhke.png" alt="git"
-        class="icon" onclick="location.href='https://github.com/sergaparri/sergaparri.github.io'"
-        />
-        <img
-        src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478366/linkedin-logo-24_vlszxy.png" alt="linkn"
-        class="icon" onclick="location.href='https://www.linkedin.com/in/serg-michael-aparri-043a14316/'"
-        />
-        <img
-        src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478365/instagram-logo-24_rjjbh9.png" alt="insta"
-        class="icon" onclick="location.href='https://www.instagram.com/s.erg2/?hl=en'"
-        />
+   <header class="header">
+    <a href="#home" class="logo">serg<span>aparri</span></a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#educ" >Education</a>
+     </nav>
+   </header>
+
+   <section class="home" id="home">
+    <div class="home-img">
+        <img src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1725026567/456504509_1196935294688472_1509382775561069567_n_ithtrb.jpg" alt="">
     </div>
 
-    <h4>Personal Skills</h4>
+    <div class="home-content">
+        <h1>HELLO,<span>I'm Serg</span></h1>
+        <h2 class="text-animation"><span></span>
+             .<span></span>
+        </h2>
+        <p>Hi, I'm a junior developer and digital artist. I specialize in web design, graphic design, and system availability.</p>
 
-    <nav id="nav2">
-        <div class="skills">
-            <p>Graphic Designer</p>
-            <p>Illustrator</p>
-            <p>Web developer</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/serg-michael-aparri-043a14316/"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://www.instagram.com/s.erg2/"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="https://www.facebook.com/sergmichael.aparri"><i class='bx bxl-facebook-square' ></i></a>
+            <a href="https://github.com/sergaparri/sergaparri.github.io"><i class='bx bxl-github' ></i></a>
         </div>
-    </nav>
+        <a href="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1725047850/Screenshot_2024-08-31_035628_fqachs.png" class="btn">Hire Me</a>
 
-    <nav id="nav3">
-        <div class="pics">
-            <img class="design" src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478323/design_hdgl98.jpg" alt="design">
-            <img class="lebron" src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478365/lebron_qjo3ka.jpg" alt="lebron">
-            <img class="web" src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478427/website_fnhfu9.png" alt="web">
-        </div>
-    </nav>
+        <section class="skills" id="skills">
+            <h3 class="heading">Personal Skills</h3>
 
-    <p class="p2">Education</p>
+            <div class="skills-container">
 
-    <div class="educ">
-        <p class="p3">College of mary immacculate,2024</p>
-        <p class="p4">Bachelor of Science in Computer Science</p>
+                <div class="skills-box">
+                    <div class="box1">
+                        <h4>Graphic Design</h4>
+                        <img class="design" src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478323/design_hdgl98.jpg" alt="design">
+                    </div>
+                    <div class="b0x2">
+                        <h4>Illustration</h4>
+                        <img class="lebron" src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478365/lebron_qjo3ka.jpg" alt="lebron">
+                    </div>
+                    <div class="box3">
+                        <h4>Web development</h4>
+                        <img class="web" src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478427/website_fnhfu9.png" alt="web">
+                    </div>
+                </div>
+            </div>
+            </h3>
+        </section>
     </div>
+</section>
 
-    <img class="cmi" src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478284/cmi_xsxezt.jpg" alt="cmi">
+<section class="educ" id="educ">
+    <div class="text">
+        <h5>Education</h5>
+        <h6>College of Mary immaculate</h6>
+        <p>Bachelor of Science in Computer Science</p>
+    <div class="educ-box">
+        <img  class="cmi" src="https://res.cloudinary.com/dy5u1ccgi/image/upload/v1724478284/cmi_xsxezt.jpg" alt="cmi">
+    </div>
+</section>
+
+    
 </body>
 </html>
